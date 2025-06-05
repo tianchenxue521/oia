@@ -1,0 +1,354 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登陆",
+				"app-plus":{"titleNView":false}
+			}
+		},
+	
+		{
+			"path": "pages/tabbar/home",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"app-plus":{"titleNView":false}
+			}
+		},
+		
+		{
+			"path": "pages/tabbar/invest",
+			"style": {
+				"navigationBarTitleText": "投资列表",
+				"app-plus":{"titleNView":false}
+			}
+		},
+		{
+			"path": "pages/tabbar/customer-service",
+			"style": {
+				"navigationBarTitleText": "客服",
+				"app-plus":{"titleNView":true},
+				"navigationBarBackgroundColor": "#fff",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/tabbar/mine",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": true,
+				"app-plus":{"titleNView":false}
+			}
+		},
+		{
+			"path": "pages/login/forgot-pass",
+			"style": {
+				"navigationBarTitleText": "忘记密码",
+				"app-plus":{"titleNView":false}
+			}
+		},
+		{
+			"path": "pages/productDetail/productDetail",
+			"style": {
+				"navigationBarTitleText": "产品详情",
+				"app-plus":{"titleNView":false}
+			}
+		},
+		{
+			"path": "pages/mall/maill-list",
+			"style": {
+				"navigationBarTitleText": "积分商城",
+				"app-plus":{"titleNView":false}
+			}
+		},
+		{
+			"path": "pages/mall/mall-orderlist",
+			"style": {
+				"navigationBarTitleText": "兑换记录",
+				"app-plus":{"titleNView":false}
+			}
+		},
+		{
+			"path": "pages/mall/mall-detail",
+			"style": {
+				"navigationBarTitleText": "兑换详情",
+				"app-plus":{"titleNView":false}
+			}
+		},
+		{
+			"path": "pages/finance-record/zj",
+			"style": {
+				"navigationBarTitleText": "资金明细",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/finance-record/sy",
+			"style": {
+				"navigationBarTitleText": "收益明细",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/piggy-bank/piggy",
+			"style": {
+				"navigationBarTitleText": "日益宝",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/piggy-bank/piggy-detail",
+			"style": {
+				"navigationBarTitleText": "收益记录",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/finance-record/tx",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/finance-record/cz",
+			"style": {
+				"navigationBarTitleText": "充值记录",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/vip-level/vip-level",
+			"style": {
+				"navigationBarTitleText": "会员等级",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/common/active",
+			"style": {
+				"navigationBarTitleText": "帮助",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/team/team",
+			"style": {
+				"navigationBarTitleText": "我的团队",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/common/invest-list",
+			"style": {
+				"navigationBarTitleText": "我的投资",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/common/contract",
+			"style": {
+				"navigationBarTitleText": "合同详情",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/common/secure",
+			"style": {
+				"navigationBarTitleText": "安全保障",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/common/news",
+			"style": {
+				"navigationBarTitleText": "充值说明",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/account/recharge",
+			"style": {
+				"navigationBarTitleText": "充值",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/account/draw-money",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/account/edit-pass",
+			"style": {
+				"navigationBarTitleText": "修改登录密码",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/account/edit-payPass",
+			"style": {
+				"navigationBarTitleText": "修改支付密码",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/account/real-name",
+			"style": {
+				"navigationBarTitleText": "实名认证",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/account/bind-bank-card",
+			"style": {
+				"navigationBarTitleText": "绑定银行卡",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/account/back-list",
+			"style": {
+				"navigationBarTitleText": "绑定银行卡",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/account/set",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/account/invite",
+			"style": {
+				"navigationBarTitleText": "邀请",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/task/task",
+			"style": {
+				"navigationBarTitleText": "做任务领红包",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/common/newList",
+			"style": {
+				"navigationBarTitleText": "新闻列表",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/account/ustd",
+			"style": {
+				"navigationBarTitleText": "绑定USDT",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/account/choujiang",
+			"style": {
+				"navigationBarTitleText": "抽奖",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/account/jiang_list",
+			"style": {
+				"navigationBarTitleText": "我的奖品",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/account/chou_list",
+			"style": {
+				"navigationBarTitleText": "抽奖记录",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/tabbar/gonggao_list",
+			"style": {
+				"navigationBarTitleText": "公告列表",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/tabbar/gonggao",
+			"style": {
+				"navigationBarTitleText": "公告",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/tabbar/invest_type",
+			"style": {
+				"navigationBarTitleText": "投资分类",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/team/teams",
+			"style": {
+				"navigationBarTitleText": "团队详情",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/tabbar/xin",
+			"style": {
+				"navigationBarTitleText": "新品",
+				"app-plus":{"titleNView":false}
+			}
+		},{
+			"path": "pages/tabbar/re",
+			"style": {
+				"navigationBarTitleText": "热门",
+				"app-plus":{"titleNView":false}
+			}
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus":{"titleNView":true},
+		"usingComponents": {
+			"p-footer": "pages/components/footer"
+		}
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#313134",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"position": "bottom",
+		"list": [{
+				"pagePath": "pages/tabbar/home",
+				"iconPath": "static/images/img/index0.png",
+				"selectedIconPath": "static/images/img/index1.png",
+				"text": "首页"
+	
+			}, {
+				"pagePath": "pages/tabbar/invest_type",
+				"iconPath": "static/images/img/list0.png",
+				"selectedIconPath": "static/images/img/list1.png",
+				"text": "投资列表"
+			},
+			
+			{
+				"pagePath": "pages/tabbar/customer-service",
+				"iconPath": "static/images/img/kefu0.png",
+				"selectedIconPath": "static/images/img/kefu1.png",
+				"text": "客服"
+				
+			},
+			{
+				"pagePath": "pages/tabbar/mine",
+				"iconPath": "static/images/img/user0.png",
+				"selectedIconPath": "static/images/img/user1.png",
+				"text": "个人中心"
+			}
+		]
+	},
+	"uniIdRouter": {},
+	
+	"easycom": {
+		"autoscan": true,
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue",
+		"custom": {}
+	}
+}
